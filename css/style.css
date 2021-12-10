@@ -144,7 +144,11 @@ body {
 .page__pratice {
 }
 .page__whoweare {
-	background-color: #fff;
+}
+.page__clients {
+	margin-bottom: 10px;
+}
+.page__subscribe {
 }
 /* --------HEDAER BLOCK--------------------------------------------- */
 .header-block {
@@ -508,6 +512,7 @@ body {
 
 .whoweare {
 	padding: 80px 0 130px 0;
+	background-color: #fff;
 }
 @media (max-width: 950px) {
 	.whoweare {
@@ -633,7 +638,88 @@ body {
 	.whoweare {
 		padding: 20px 0 50px 0;
 	}
-	.whoweare__top:not(:last-child){
+	.whoweare__top:not(:last-child) {
 		margin-bottom: 30px;
 	}
+}
+
+.clients {
+	padding: 50px 0;
+}
+@media (max-width: 767px) {
+	.clients {
+		padding: 30px 0;
+	}
+}
+.clients__container {
+}
+.client__items {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.clients__item {
+	padding: 8px 15px;
+	flex: 0 1 16.6667%;
+	text-align: center;
+	min-width: 140px;
+}
+
+.clients__item img {
+	max-width: 100%;
+}
+
+.subscribe {
+}
+.subscribe__container {
+}
+.subscribe__body {
+	margin: 0 30px;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 50px;
+	align-items: center;
+	background-color: #17213c;
+	border-radius: 2px;
+}
+.subscribe__title {
+	max-width: 266px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 133%;
+	letter-spacing: 0.1px;
+	color: #ffffff;
+}
+.subscribe__form {
+	flex: 0 1 50%;
+	display: flex;
+	align-items: center;
+}
+.subscribe__input {
+	flex: 1 1 auto;
+	min-height: 58px;
+	padding: 0 20px;
+	color: #737373;
+	background: #f9f9f9;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px 0 0 5px;
+}
+.subscribe__input:focus {
+	color: #000;
+}
+.subscribe__button {
+	background: #ff7b47;
+	border: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	border-radius: 0px 5px 5px 0px;
+	line-height: 200%;
+	letter-spacing: 0.2px;
+	color: #ffffff;
+	display: flex;
+	min-height: 58px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 0 22.5px;
 }
